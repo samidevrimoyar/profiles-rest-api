@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'Ulannebube?=__324235:...Hayamn+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['superisi.net', 'www.superisi.net', 'superisi-api.onrender.com', '127.0.0.1']
 
