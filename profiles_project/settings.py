@@ -20,13 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'l!pdebb9lfrr5ml4gyw-exl(&me7)+z68ezed7ll26ym4a!9^o'
+SECRET_KEY = 'Ulannebube?=__324235:...Hayamn+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['superisi.net', 'www.superisi.net', 'superisi-api.onrender.com', '127.0.0.1']
 
 # Application definition
 
