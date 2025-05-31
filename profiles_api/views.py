@@ -12,6 +12,11 @@ from profiles_api import serializers
 from profiles_api import models
 from profiles_api import permissions
 
+from django.shortcuts import render
+
+def ogame_page(request):
+    return render(request, 'ogame/index.html')
+
 class HelloApiView(APIView):
     """Test API View"""
     serializer_class = serializers.HelloSerializer
